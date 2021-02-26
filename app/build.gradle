@@ -28,7 +28,7 @@ android {
     buildTypes {
         applicationVariants.all{
             variant ->
-                variant.buildConfigField STRING, LOL_API, getCustomProperty(LOL_API)
+                variant.buildConfigField STRING, API_KEY, getCustomProperty(API_KEY)
         }
         debug {
             minifyEnabled false
@@ -51,6 +51,8 @@ android {
 }
 
 dependencies {
+    // WebServices module
+    implementation project(":web")
 
     //Kotlin
     implementation deps.kotlin.stdlib

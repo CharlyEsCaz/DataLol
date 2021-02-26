@@ -13,8 +13,8 @@ ext.FALSE = FALSE
 ext.DEBUG_MODE = DEBUG_MODE
 
 
-def LOL_API = 'lol_api'
-ext.LOL_API = LOL_API
+def API_KEY = 'api_key'
+ext.API_KEY = API_KEY
 
 ext.getCustomProperty = { key ->
     Properties props = new Properties()
