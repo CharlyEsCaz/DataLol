@@ -41,7 +41,7 @@ object APIDataLol {
 
         //Prepare retrofit instance
 //        val retrofit = Retrofit.Builder()
-//                .baseUrl(APIConstants.serverPath)
+//                .baseUrl(BuildConfig.API_BASE)
 //                .addConverterFactory(ScalarsConverterFactory.create())
 //                .addConverterFactory(GsonConverterFactory.create(gson))
 //                .client(httpClietBuilder.build())

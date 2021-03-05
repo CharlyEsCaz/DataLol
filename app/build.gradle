@@ -29,6 +29,7 @@ android {
         applicationVariants.all{
             variant ->
                 variant.buildConfigField STRING, API_KEY, getCustomProperty(API_KEY)
+                variant.buildConfigField STRING, API_BASE, getCustomProperty(API_BASE)
         }
         debug {
             minifyEnabled false
